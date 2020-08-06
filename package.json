@@ -21,7 +21,8 @@
   "license": "MIT",
   "repository": "fontello/fontello",
   "scripts": {
-    "test": "make test"
+    "test": "make test",
+    "start": "node server.js "
   },
   "dependencies": {
     "@babel/core": "^7.2.2",
