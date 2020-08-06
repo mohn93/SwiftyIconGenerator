@@ -1,9 +1,9 @@
 SiwftyIcons - Swicon icons creator
 =======================================
 
-[![Build Status](https://api.travis-ci.org/mohn93/swiftyicon.svg?branch=swifticon)](https://travis-ci.org/mohn93/swiftyicon)
+[![Build Status](https://travis-ci.org/mohn93/SwiftyIconGenerator.svg?branch=master)](https://travis-ci.org/mohn93/SwiftyIconGenerator)
 
-website: [swiftyicon.herokuapp.com/](https://swiftyicon.herokuapp.com), help: [wiki](https://github.com/mohn93/swiftyicon/wiki/Help)
+website: [swiftyicon.herokuapp.com/](https://swiftyicon.herokuapp.com), help: [wiki](https://github.com/mohn93/SwiftyIconGenerator/wiki/Help)
 
 SiwftyIcons is a web-based generator of Swicon icon font elements.
 Customized icon fonts can be produced from not only Material Design Icons,
@@ -12,7 +12,7 @@ your own svg art.
 
 ## Issues
  
-Please report all issues on the [GitHub issue tracker](https://github.com/mohn93/swiftycion/issues)
+Please report all issues on the [GitHub issue tracker](https://github.com/mohn93/SwiftyIconGenerator/issues)
 including request for additional fonts.
 
 ## API Mode
