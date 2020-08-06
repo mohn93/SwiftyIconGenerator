@@ -1,0 +1,34 @@
+@import "../../_variables"
+
+.tabs-container
+  position relative
+
+//=== Fix tab styles
+.nav-tabs
+  margin-bottom 0
+
+.nav-tabs a
+  cursor pointer
+  font-weight normal
+
+.nav-tabs .disabled
+.nav-tabs .disabled:hover
+  opacity 0.3
+  cursor default
+
+.nav-tabs > li > a
+  outline: none
+  //transition background-color .5s ease-in-out
+
+.nav-tabs > .active > a,
+.nav-tabs > .active > a:hover
+  font-weight: bold;
+
+//====== users counter ============
+.stats
+  text-align center
+  font-size 10px
+  color #888
+  position absolute
+  right 0
+  bottom 0

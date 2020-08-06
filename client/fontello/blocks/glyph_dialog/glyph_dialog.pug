@@ -1,0 +1,40 @@
+.modal.fade
+  .modal-dialog.glyph-dialog__dialog
+    .modal-content()
+      .modal-header.glyph-dialog__header
+        button.close(type='button', data-dismiss='modal') &times;
+        h4.modal-title= self.t('title')
+      .modal-body
+        form.form-horizontal
+
+          .form-group
+            .col-sm-12
+              - var font_class = (self.fontname === 'custom_icons') ? "font-custom_icons" : "font-fontello"
+              span.glyph-dialog__char-xl(class=font_class)= self.char_ref
+              span.glyph-dialog__char-md(class=font_class)= self.char_ref
+              span.glyph-dialog__char-sm(class=font_class)= self.char_ref
+
+
+          fieldset.glyph-dialog__fieldset
+            legend= self.t('fieldset_defaults')
+            .form-group
+              label.col-sm-4.control-label(for='gopt__css_name')= self.t('css_name')
+              .col-sm-4
+                input#gopt__css_name.form-control(type='text', value=self.css_name)
+
+          fieldset.glyph-dialog__fieldset
+            legend= self.t('fieldset_search')
+            .form-group
+              label.col-sm-4.control-label(for='gopt__keywords')= self.t('keywords')
+              .col-sm-8
+                input#gopt__keywords.form-control(type='text', value=self.keywords)
+
+
+          .row.glyph-dialog__buttons
+            .col-sm-12.clearfix
+              button.btn.btn-primary.pull-right(
+                type='submit',
+                data-on-click='cmd:glyph_options.save')= self.t('btn_save')
+              button.btn.btn-default.pull-left(
+                type='button',
+                data-on-click='cmd:glyph_remove')= self.t('btn_delete')

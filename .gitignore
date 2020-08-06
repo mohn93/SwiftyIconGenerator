@@ -1,0 +1,15 @@
+node_modules/
+log/
+assets/
+
+*.log
+*.swp
+*.sublime-project
+*.sublime-workspace
+
+download/
+db/
+
+.fontello
+.fontello.zip
+.fontello.src

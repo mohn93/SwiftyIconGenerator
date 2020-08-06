@@ -1,0 +1,27 @@
+en-US:
+  title: SwiftyIcon - Swift custom icons generator
+  description: Build custom Swift icons from popular icon sets or your own images.
+  desc_long: >
+    Build a truetype font for use with Swift with the necessary
+    Dart code to use within your apps.
+  menu_feedback: Feedback
+  menu_discuss: Ask in Google Groups
+  menu_bugreports: Report bugs at Github
+  menu_help: Help / Wiki
+  menu_bugreports_help: >
+    We prefer to communicate via Github. Share you ideas with us there.
+    If you still don't have a Github account - it's time to join the biggest
+    open source community!
+  menu_how_to_help: How to help us
+
+  menu_donate: donate
+  menu_donate_help: >
+    SwiftyIcon is not done for money, but feel free to
+    show us how much you like it :)
+
+  twitter_follow: Follow
+  twitter_share: Tweet
+  twitter_text: SwiftyIcon - open source Swift icon font builder
+
+  nojs: This site will not work without javascript!
+  nocookies: This site will not work if cookies are completely disabled.

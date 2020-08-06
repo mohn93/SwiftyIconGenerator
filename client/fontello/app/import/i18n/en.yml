@@ -1,0 +1,32 @@
+en-US:
+  err_invalid_browser: >
+    Your browser does not support this operation. Please,
+    <a href="http://www.mozilla.org/firefox/new/">upgrade</a>
+    to a more current browser.
+
+  err_no_files_chosen: You must choose a file.
+  err_bad_config_format: "Can't parse config file '#{name}'"
+  err_bad_zip_format: "Can't unzip '#{name}'"
+  err_unknown_format: "Can't import '#{name}' - unknown format"
+
+  err_need_svg_font: >
+    We don't support import of fonts in TTF / WOFF / OTF formats.
+    Please, convert to SVG format first. You can do it with
+    <a href="http://fontforge.org" target="_blank">FontForge</a>,
+    for example. See 
+    <a href="https://github.com/fontello/fontello/wiki/How-to-use-custom-images" target="_blank">help</a> 
+    for details.
+
+  err_invalid_format: Invalid file format.
+
+  err_skiped_tags: >
+    If image looks not as expected please convert to
+    <strong><a href="https://github.com/fontello/fontello/wiki/How-to-use-custom-images#importing-svg-images" target="_blank">compound path</a></strong>
+    manually.
+    <br><br>
+    Skipped tags and attributes: #{skipped}
+
+  err_merge_path: >
+    If image looks not as expected please convert to
+    <strong><a href="https://github.com/fontello/fontello/wiki/How-to-use-custom-images#importing-svg-images" target="_blank">compound path</a></strong>
+    manually.

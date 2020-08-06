@@ -1,0 +1,17 @@
+#codes-editor.tab-pane
+
+  #result-font(data-bind='foreach: { data: selectedGlyphs }')
+    .result-glyph
+      .top
+        input.char-editable(data-bind='value: customChar')
+        a.remove.icon-remove(
+          href='#',
+          title=self.t('remove'),
+          data-bind='attr: { "data-id": uid }', data-on-click='codes_edit:glyph_remove'
+        )
+
+      .center(data-bind='text: charRef, css: (font.fontname === "custom_icons") ? "font-custom_icons" : "font-fontello"')
+
+      .bottom
+        span.code-prefix U+
+        input.code-editable(data-bind='value: customHex', maxlength='5')

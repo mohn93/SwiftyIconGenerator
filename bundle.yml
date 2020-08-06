@@ -1,0 +1,30 @@
+bundles:
+  fontello:
+    - fontello
+
+  lib:
+    - lib
+
+packages:
+  fontello:
+    depends:
+      - lib
+
+    entries:
+      - client/fontello
+      - server/fontello
+
+  lib:
+    entries:
+      client/lib
+
+    vendor:
+      - lodash
+      - jquery
+      - event-wire
+      - babelfish
+      - knockout
+      # template helpers
+      - pug-runtime
+      # reuse global bug.js from the loader
+      - bagjs: ./lib/app/bag.js

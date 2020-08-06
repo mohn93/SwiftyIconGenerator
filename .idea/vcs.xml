@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/awesome-uni.font" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/brandico.font" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/elusive.font" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/entypo" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/fontelico.font" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/iconic-uni.font" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/linecons.font" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/maki.font" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/meteocons.font" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/mfglabs.font" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/modernpics.font" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/typicons.font" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/websymbols-uni.font" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/zocial.font" vcs="Git" />
+  </component>
+</project>

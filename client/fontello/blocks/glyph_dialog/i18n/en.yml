@@ -1,0 +1,14 @@
+en-US:
+  title: Glyph options
+
+  fieldset_defaults: Defaults
+  css_name: Default (css) name
+  hex_code: Default code (hex)
+
+  fieldset_search: Search
+  keywords: Keywords
+
+  btn_save: Save glyph
+  btn_delete: Delete glyph
+
+  confirm_delete: 'Are you sure?'

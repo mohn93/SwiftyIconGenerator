@@ -1,0 +1,9 @@
+inherit: false
+recursive: false
+public: true
+type:
+  widget_css:
+    - fontface_fontello.css
+  bin:
+    - font/fontello.woff
+    - font/fontello.woff2
