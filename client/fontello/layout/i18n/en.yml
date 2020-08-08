@@ -1,5 +1,5 @@
 en-US:
-  title: SwiftyIcon - Swift custom icons generator
+  title: SwiftyIconGenerator - Swift font icons generator
   description: Build custom Swift icons from popular icon sets or your own images.
   desc_long: >
     Build a truetype font for use with Swift with the necessary
