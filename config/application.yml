@@ -60,7 +60,7 @@ robots: |
 #
 bind:
   default:
-    listen: :80
+    listen: :3000
 
   # SYNOPSIS:
   #
