@@ -3,8 +3,8 @@
   "version": "6.0.0",
   "description": "Iconic fonts scissors",
   "engines": {
-    "node": "8.17.0",
-    "npm": "6.13.4"
+    "node": "10.16.3",
+    "npm": "6.14.5"
   },
   "keywords": [
     "icon",
@@ -58,7 +58,7 @@
     "level-ttl": "^3.1.1",
     "lie": "^3.1.1",
     "lodash": "^4.17.19",
-    "log4js": "^6.1.2",
+    "log4js": "^6.3.0",
     "mdurl": "^1.0.1",
     "mkdirp": "^1.0.3",
     "mocha": "^7.0.1",
