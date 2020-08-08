@@ -1,0 +1,31 @@
+router:
+  http.get:
+    fontello.app:
+      "/({sid})":
+        sid: /[0-9a-f]+/
+      "/#search={search}":
+        search: /\S+/
+
+    fontello.api.download:
+      "/{sid}/get":
+        sid: /[0-9a-f]+/
+
+    fontello.font.download:
+      "/download/{id}":
+        id: /[0-9a-f]{32}/
+
+    fontello.robots:
+      "/robots.txt": ~
+
+  http.post:
+    fontello.api.post:
+      "/": ~
+
+  bin:
+    core.assets:
+      "/assets/{path}":
+        path: /.+/
+
+    core.static:
+      "/{path}":
+        path: /favicon|favicon.ico|snippet.png|logo_dart_192px.svg|swift_logo.svg/
