@@ -3,8 +3,8 @@
   "version": "6.0.0",
   "description": "Iconic fonts scissors",
   "engines": {
-    "node": "10.16.3",
-    "npm": "6.14.5"
+    "node": "8.17.0",
+    "npm": "6.13.4"
   },
   "keywords": [
     "icon",
@@ -22,7 +22,7 @@
   "repository": "fontello/fontello",
   "scripts": {
     "test": "make test",
-    "start": "node server.js "
+    "start": "node server.js"
   },
   "dependencies": {
     "@babel/core": "^7.2.2",
