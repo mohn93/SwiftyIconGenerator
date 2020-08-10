@@ -19,5 +19,5 @@ func setupIconFont() {
     <% glyphs.forEach(function(glyph) { %>
     iconNameValueMappingDict["custom-${glyph.dart}"] = "\u{${glyph.code16}}"
       <% }); %>
-    Swicon.instance.addCustomFont(customFontPrefix, fontFileName: fontFileName, fontName: fontName, fontIconMap: iconNameValueMappingDict)
+    Swficon.instance.addCustomFont(customFontPrefix, fontFileName: fontFileName, fontName: fontName, fontIconMap: iconNameValueMappingDict)
 }
