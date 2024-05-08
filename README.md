@@ -1,5 +1,5 @@
 SiwftyIconsGenerator - Swficon icons creator
-=======================================
+========================================
 
 [![Build Status](https://travis-ci.org/mohn93/SwiftyIconGenerator.svg?branch=master)](https://travis-ci.org/mohn93/SwiftyIconGenerator)
 
